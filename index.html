@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- normalize css -->
+    <link rel="stylesheet" href="resources/normalize.css" />
+    <!-- custom main css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- font -->
+    <link rel="stylesheet" href="resources/font.css" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- magnification popup -->
+    <link
+      rel="stylesheet"
+      href="resources/Magnific-Popup-master/dist/magnific-popup.css"
+    />
+    <!-- owl carousel -->
+    <link
+      rel="stylesheet"
+      href="resources/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="resources/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css"
+    />
+  </head>
+  <body>
+    <!-- headder -->
+    <header class="header" id="into">
+      <nav class="navbar">
+        <div class="container">
+          <div class="brand-and-toggler">
+            <a href="index.html" class="navbar-brand">
+            
+            </a>
+          </div>
+
+          <div class="navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="#intro" class="nav-link">เกี่ยวกับหมอหมึก</a>
+              </li>
+              <li class="nav-item">
+                <a href="#featurn" class="nav-link">บทความ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#team" class="nav-link">จองคิว</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero-div center container">
+        <h1>หมอหมึก</h1>
+        <p>ผู้มีประสบการณ์พยากรณ์กว่า 10 ปี พร้อมคำพยากรณ์ที่แม่นยำ</p>
+
+        <div class="hero-btns">
+          <button type="button" class="btn-white">จองคิว</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- END of headder -->
+
+    <!-- detail section -->
+    <!-- <section class="detail">
+      <div class="row">
+        <div class="detail-item">
+          <span><i class="fas fa-tablet-alt"></i></span>
+          <h2>Responsive Design</h2>
+          <div class="line"></div>
+          <p class="text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            accusantium vitae aliquam autem velit architecto, repudiandae
+            delectus aperiam hic blanditiis. Doloremque et aliquid quasi eos?
+          </p>
+        </div>
+
+        <div class="detail-item">
+          <span><i class="fas fa-html5"></i></span>
+          <h2>HTML5</h2>
+          <div class="line"></div>
+          <p class="text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            accusantium vitae aliquam autem velit architecto, repudiandae
+            delectus aperiam hic blanditiis. Doloremque et aliquid quasi eos?
+          </p>
+        </div>
+
+        <div class="detail-item">
+          <span><i class="fas fa-bell"></i></span>
+          <h2>24 Hour Support</h2>
+          <div class="line"></div>
+          <p class="text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            accusantium vitae aliquam autem velit architecto, repudiandae
+            delectus aperiam hic blanditiis. Doloremque et aliquid quasi eos?
+          </p>
+        </div>
+      </div>
+    </section> -->
+    <!-- end of detail -->
+    
+    <!-- feature section -->
+    <section class="feature" id="feature">
+      <div class="container">
+        <div class="row">
+          
+          <div class="feature-right">
+            <div class="title">
+              <h2>ประวัติหมอหมึก</h2>
+            </div>
+
+            <div class="feature-item">
+              
+              <div>
+               
+                <p class="text">
+                  หมอหมึกเป็นนักพยากรณ์ที่ชำนาญด้านการทำนายดวงด้วยลูกแก้วพยากรณ์ ไพ่ทาโร่ และการดูลายมือ
+                </p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              
+              <div>
+                
+                <p class="text">
+                  ด้วยความสามารถที่หลากหลายทำให้หมอหมึกสามารถเลือกวิธีการทำนายที่เหมาะกับแต่ละบุคคลเพื่อให้ได้ผลลัพธ์ที่แม่นยำที่สุด
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="feature-left">
+            <img src="asset_octopus/octopus.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of features section -->
+
+    <!-- team section -->
+    <section class="team" id="team">
+      <div class="container">
+        <div class="title">
+          <h2>รีวิวจากลูกค้า</h2>
+          
+        </div>
+        
+        <div class = "row owl-carousel owl-theme">
+            <div class = "team-item">
+              <div class = "team-img">
+                <img src = "asset_octopus/businessMan.jpeg" alt = "">
+                <div class = "team-icons">
+                  <a href = "#" class = "center">
+                    <i class = "fab fa-facebook-f"></i>
+                  </a>
+                  <a href = "#" class = "center">
+                    <i class = "fab fa-twitter"></i>
+                  </a>
+                  <a href = "#" class = "center">
+                    <i class = "fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+              <div class = "team-info">
+                <h3>แมทธิว นักธุรกิจ</h3>
+                <span>หมอหมึกช่วยผมเรื่องฤกษ์ยามในการเจรจาธุรกิจได้มากเลย ตอนนี้ขายดีเป็นเทน้ำเทท่าเลยครับ</span>
+              </div>
+            </div>
+  
+            <div class = "team-item">
+              <div class = "team-img">
+                <img src = "asset_octopus/actor.jpg" alt = "">
+                <div class = "team-icons">
+                  <a href = "#" class = "center">
+                    <i class = "fab fa-facebook-f"></i>
+                  </a>
+                  <a href = "#" class = "center">
+                    <i class = "fab fa-twitter"></i>
+                  </a>
+                  <a href = "#" class = "center">
+                    <i class = "fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+              <div class = "team-info">
+                <h3>แจ็ค นักแสดง</h3>
+                <span>ต้องขอบคุณหมอหมึกในการช่วยให้ความสัมพันธ์ราบรื่นด้วยนะคะ ทำนายอะไรไว้แม่นยำทุกอย่างเลยค่ะ</span>
+              </div>
+            </div>
+  
+            <div class = "team-item">
+              <div class = "team-img">
+                <img src = "asset_octopus/student.jpg" alt = "">
+                <div class = "team-icons">
+                  <a href = "#" class = "center">
+                    <i class = "fab fa-facebook-f"></i>
+                  </a>
+                  <a href = "#" class = "center">
+                    <i class = "fab fa-twitter"></i>
+                  </a>
+                  <a href = "#" class = "center">
+                    <i class = "fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+              <div class = "team-info">
+                <h3>น้ำใส นักศึกษา</h3>
+                <span>ที่หมอหมึกบอกมานะคะเกิดเกือบหมดเลยค่ะ ถ้าไม่ได้หมอหมึกช่วยไว้ ชีวิตคงแน่เลยค่ะ ดีนะที่ป้องกันเรื่องร้ายๆทันเวลา</span>
+              </div>
+            </div>
+            
+          
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- end of team section -->
+    
+    <!-- faq section -->
+    <!-- <section class="faq">
+        <div class="container">
+            <div class="title">
+                <h2>Have Any Question</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+
+            <div class="row">
+                <div class="faq-item">
+                    <div class="faq-head">
+                        <h3>What is Web Development?</h3>
+                        <span><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-content">
+                        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores quis quasi fuga. Numquam totam labore asperiores qui, nihil error sequi!</p>
+                        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, iusto debitis. Non voluptatum aut vero.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-head">
+                        <h3>What is Web Development?</h3>
+                        <span><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-content">
+                        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores quis quasi fuga. Numquam totam labore asperiores qui, nihil error sequi!</p>
+                        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, iusto debitis. Non voluptatum aut vero.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-head">
+                        <h3>What is Web Development?</h3>
+                        <span><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-content">
+                        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores quis quasi fuga. Numquam totam labore asperiores qui, nihil error sequi!</p>
+                        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, iusto debitis. Non voluptatum aut vero.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+    <!-- end of faq section -->
+    <!-- pricing section -->
+    <!-- <section class="pricing" id = "pricing">
+        <div class="container">
+            <div class="title">
+                <h2>Our Package</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, maiores.</p>
+            </div>
+
+            <div class="row">
+                <div class="pricing-item">
+                    <h2>Business Version</h2>
+                    <div class="price">
+                        <span>$ 120</span>
+                        <span class="text">Monthly</span>
+                    </div>
+                    <ul>
+                        <li>24 Accounts</li>
+                        <li>10 GB storage</li>
+                        <li>lifetime Support</li>
+                        <li>Reliable Service</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-item">
+                    <h2>Professional Version</h2>
+                    <div class="price">
+                        <span>$ 120</span>
+                        <span class="text">Monthly</span>
+                    </div>
+                    <ul>
+                        <li>24 Accounts</li>
+                        <li>10 GB storage</li>
+                        <li>lifetime Support</li>
+                        <li>Reliable Service</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-item">
+                    <h2>Standard Version</h2>
+                    <div class="price">
+                        <span>$ 120</span>
+                        <span class="text">Monthly</span>
+                    </div>
+                    <ul>
+                        <li>24 Accounts</li>
+                        <li>10 GB storage</li>
+                        <li>lifetime Support</li>
+                        <li>Reliable Service</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- end of pricing section -->
+    <!-- testimonial section -->
+    <!-- <section class = "testimonial" id="testimonial">
+        <div class="container">
+            <div class="title">
+                <h2>Testimonials Words</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+
+            <div class="row owl-carousel owl-theme">
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src = "assets/test-1.jpg" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae libero vero eaque illo dolore repellendus vel dicta voluptatem in doloribus.</p>
+                    <span>Someone's Name</span>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src = "assets/test-2.jpg" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae libero vero eaque illo dolore repellendus vel dicta voluptatem in doloribus.</p>
+                    <span>Someone's Name</span>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-img">
+                        <img src = "assets/test-3.jpg" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae libero vero eaque illo dolore repellendus vel dicta voluptatem in doloribus.</p>
+                    <span>Someone's Name</span>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- end of testimonial section -->
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            
+            <div class="row">
+                <div class="contact-left">
+                  
+                    <img src="asset_octopus/map.jpg" alt="" />
+                  
+                </div>
+
+                <div class="contact-right">
+                  <h1>ทำนายชะตากับหมอหมึก</h1>
+                    <div>
+                        
+                        <p class="text">ทำนายชะตากับหมอหมึก
+                          สามารถจองคิวได้ในเว็บหรือ
+                          อีเมล: octopus_fortune@teller.com
+                          โทรศัพท์: 099 xxx xxxx
+                          และมาที่สำนักที่ชั่น
+                          12 อาคาร JWC ถนนโปรแกรมมิ่ง แขวงเว็บ
+                          เขคอินเตอร์เน็ต กรุงเทพ 9999
+                          ตามเวลาที่นัดไว้
+                          </p>
+                    </div>
+                    <div>
+                        <p class="text">จำกัดที่10คิวต่อหนึ่งวัน เปิดทำการ
+                          10.00 - 18.30 น. พัก 12.00 - 13.00
+                          เปิดทุกวันอังคารถึงเสาร์ หยุดวันจันทร์และอาทิตย์</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of contact section -->
+    <!-- footer -->
+    <!-- <footer class="footer center">
+        <div class="container">
+            <p class="text">Copyright &copy; Design.Diva Website | All Rights Reserved</p>
+            <div class="footer-links">
+                <a href="#" class="center">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="center">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="center">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="center">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="center">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- end of footer -->
+    <!-- magnific popup -->
+    <script src="resources/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+    <!-- jQuery -->
+    <script src="resources/jquery-3.6.0.js"></script>
+    <!-- owl curousel -->
+    <script src="resources/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
